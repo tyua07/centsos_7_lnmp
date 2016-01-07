@@ -48,7 +48,7 @@ mkdir -p /var/log/mariadb/ && chown -R mysql:mysql /var/log/mariadb/ && /usr/loc
 
 
 * 依赖Centos7系统，如果Docker Hub pull很慢，建议去Daocloud.io去下载。
-* 编译时间可能会很长，因为没有yum去安装。
+* 编译时间可能会很长，因为没有yum去安装 nmp环境。
 * ```soft``` 文件夹为源码包，如果需要其他版本可以去下载。
 
 ## 源码网站
@@ -58,7 +58,7 @@ mkdir -p /var/log/mariadb/ && chown -R mysql:mysql /var/log/mariadb/ && /usr/loc
 * Mysql ```wget http://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.28.tar.gz # 下载地址 http://dev.mysql.com/downloads/mysql/```
 * PHP ```wget http://cn2.php.net/distributions/php-5.6.16.tar.gz # 下载地址 http://php.net/get/php-5.6.16.tar.gz/from/a/mirror```
 * Libmcrypt ```wget ftp://mcrypt.hellug.gr/pub/crypto/mcrypt/libmcrypt/libmcrypt-2.5.7.tar.gz # 下载地址 http://mcrypt.hellug.gr/lib/```
-* Reids ```wget http://download.redis.io/releases/redis-3.0.6.tar.gz # 下载地址 http://redis.io/```
+* Redis ```wget http://download.redis.io/releases/redis-3.0.6.tar.gz # 下载地址 http://redis.io/```
 
 
 
